@@ -61,7 +61,7 @@ var result=null;
 
     else if(id=="^" || id=="/" || id=="*" || id=="-" || id=="+"){
        operator=id
-       display1.innerText=id;
+       display1.innerText="";
        display2.innerText= operand1 + " " + operator;
     }
 
